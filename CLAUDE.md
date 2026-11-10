@@ -203,6 +203,7 @@ LIMIT 10;
 
 ## Notes
 
+- Session notes live in `.claude/SESSIONS.md` (session history) and `.claude/TODO.md` (next actions).
 - The project currently uses Q3 2025 PSGC publication with 2024 POPCEN (census) population data.
 - PostGIS geometries are not yet populated but the schema is ready (`geom` column + spatial index exist).
 - The database is hosted on Neon (serverless Postgres) and requires `sslmode=require&channel_binding=require` in connection string.
